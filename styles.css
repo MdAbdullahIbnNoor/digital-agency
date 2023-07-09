@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav-bar styles */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #850000e7;
+}
+
+.menus{
+    display: flex;
+}
+.menus li{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    margin-right: 20px;
+}
+
+/* Banner Styles */
+
+.banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg'),linear-gradient(45deg, rgb(58, 58, 58), rgb(82, 82, 82));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-info{
+    margin: 25%;
+    font-family: 'Times New Roman';
+}
+
+.banner-info h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.digital-color-red{
+    color: rgb(182, 6, 6);
+}
+
+.banner-info p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner-btn{
+    border: none;
+    padding: 10px 35px;
+    margin-right: 18px;
+    font-size: 18px;
+}
+
+.red-btn{
+    background-color: rgb(182, 6, 6);
+    color: white;
+}
