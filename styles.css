@@ -163,3 +163,37 @@
     border-radius: 5px;
     margin: auto;
 }
+
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(216, 23, 23);
+    padding: 30px;
+    margin-top: -80px ;
+    border: none;
+    border-radius: 8px;
+}
+
+.icon-number{
+    display: flex;
+    gap: 30px;
+} 
+
+.appointment-container p{
+    width: 800px;
+    padding-right: 50px;
+}
+
+.appointment-container button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    color: rgb(255, 8, 8);
+    font-size: small;
+    
+}
+
